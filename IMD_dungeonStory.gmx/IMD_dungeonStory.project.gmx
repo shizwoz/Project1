@@ -6,6 +6,8 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_pageFlip</sound>
+    <sound>sound\snd_backgroundMusic</sound>
+    <sound>sound\snd_step</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_floor</sprite>
@@ -22,6 +24,7 @@
     <object>objects\obj_floorHandler</object>
     <object>objects\obj_wallPlacer</object>
     <object>objects\obj_character</object>
+    <object>objects\obj_musicHandler</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
