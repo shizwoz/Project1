@@ -83,7 +83,7 @@ instance_create(x, y, obj_floor);
 //iterate our list of how many tiles have been placed 
 floorsPlaced++;
 
-dir = choose(1, 2, 3, 4, dir, dir, dir, dir, dir); 
+dir = choose(1, 2, 3, 4, dir, dir, dir); 
 
 //looks at the direction and moves one tile accordingly 
 //1 = right, 2 = down, 3 = left, 4 = up

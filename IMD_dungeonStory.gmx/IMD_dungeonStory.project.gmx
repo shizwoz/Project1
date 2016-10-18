@@ -9,8 +9,10 @@
     <sound>sound\snd_pageFlip</sound>
     <sound>sound\snd_backgroundMusic</sound>
     <sound>sound\snd_step</sound>
+    <sound>sound\snd_pickup</sound>
   </sounds>
   <sprites name="sprites">
+    <sprite>sprites\spr_scroll</sprite>
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_wall4</sprite>
     <sprite>sprites\spr_wall2</sprite>
@@ -34,6 +36,7 @@
     <object>objects\obj_wallPlacer</object>
     <object>objects\obj_character</object>
     <object>objects\obj_musicHandler</object>
+    <object>objects\obj_scroll</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
@@ -42,7 +45,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
