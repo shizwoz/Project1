@@ -125,7 +125,7 @@ if(floorsPlaced == 1000)
     wall_p = instance_create(xLeft, yUpper, obj_wallPlacer);
     wall_p.stopX = xRight; 
     wall_p.stopY = yLower;
-    instance_destroy();      
+    instance_destroy(); 
     
 }
 </string>

@@ -10,6 +10,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_character</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\br_main</background>
@@ -20,6 +21,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_floorHandler</object>
     <object>objects\obj_wallPlacer</object>
+    <object>objects\obj_character</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
@@ -28,7 +30,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>-1</IsTutorial>
+    <IsTutorial>0</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>

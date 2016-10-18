@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>stopX = 1088; 
+            <string>//this sets the bounds of the wall placer. If the map size changes, you can change these values. 
+stopX = 1088; 
 stopY = 1472;
+charPlaced = false;
 
 //startX = x-32;
 
@@ -39,6 +41,11 @@ for(x = 32; x &lt; stopX; x+=32)
 
         if(instance_exists(target))
         {
+            if(!charPlaced)
+            {
+                instance_create(x, y, obj_character);
+                charPlaced = true;
+            }
             if(!place_meeting(x+32, y, obj_floor)) { instance_create(x+32, y, obj_wall) };
             if(!place_meeting(x-32, y, obj_floor)) { instance_create(x-32, y, obj_wall) };
             if(!place_meeting(x, y+32, obj_floor)) { instance_create(x, y+32, obj_wall) };
@@ -55,6 +62,8 @@ for(x = 32; x &lt; stopX; x+=32)
 
 
 }
+
+
 </string>
           </argument>
         </arguments>
