@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_pageFlip</sound>
@@ -11,13 +12,21 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_floor</sprite>
-    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_wall4</sprite>
+    <sprite>sprites\spr_wall2</sprite>
+    <sprite>sprites\spr_wall1</sprite>
+    <sprite>sprites\spr_wall3</sprite>
+    <sprite>sprites\spr_wall0</sprite>
     <sprite>sprites\spr_character</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\br_main</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\ft_Arial</font>
+    <font>fonts\ft_Immortal</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_floor</object>
     <object>objects\obj_wall</object>
@@ -33,7 +42,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
