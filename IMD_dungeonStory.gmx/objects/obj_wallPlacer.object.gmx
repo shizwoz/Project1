@@ -25,63 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>stopX = 0; 
-stopY = 0;
+            <string>stopX = 1088; 
+stopY = 1472;
 
-startX = x-32;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>target = instance_place(x, y, obj_floor);
+//startX = x-32;
 
-if(instance_exists(target))
+for(x = 32; x &lt; stopX; x+=32)
 {
-    if(!place_meeting(x+32, y, obj_floor)) { instance_create(x+32, y, obj_wall) };
-    if(!place_meeting(x-32, y, obj_floor)) { instance_create(x-32, y, obj_wall) };
-    if(!place_meeting(x, y+32, obj_floor)) { instance_create(x, y+32, obj_wall) };
-    if(!place_meeting(x, y-32, obj_floor)) { instance_create(x, y-32, obj_wall) };
     
-}
+    for(y = 32; y &lt;= stopY; y +=32)
+    {
+        target = instance_place(x, y, obj_floor);
 
-if(x &lt; 0) 
-{ 
-    x = 0;
-}
-if(x &gt;= 1056) 
-{ 
-    y+= 32;
-    x = 0;    
-}
-else
-{
-    x+= 32;
-}
+        if(instance_exists(target))
+        {
+            if(!place_meeting(x+32, y, obj_floor)) { instance_create(x+32, y, obj_wall) };
+            if(!place_meeting(x-32, y, obj_floor)) { instance_create(x-32, y, obj_wall) };
+            if(!place_meeting(x, y+32, obj_floor)) { instance_create(x, y+32, obj_wall) };
+            if(!place_meeting(x, y-32, obj_floor)) { instance_create(x, y-32, obj_wall) };
+    
+        }
+        
+        
+        
+    }
 
-if(y &gt; stopY)
-{
-    room_speed = 60;
-    instance_destroy();
-}
 
+
+
+
+}
 </string>
           </argument>
         </arguments>

@@ -83,7 +83,7 @@ instance_create(x, y, obj_floor);
 //iterate our list of how many tiles have been placed 
 floorsPlaced++;
 
-dir = choose(1, 2, 3, 4, dir, dir, dir, dir); 
+dir = choose(1, 2, 3, 4, dir, dir, dir, dir, dir); 
 
 //looks at the direction and moves one tile accordingly 
 //1 = right, 2 = down, 3 = left, 4 = up
@@ -122,7 +122,7 @@ if(y &gt; yUpper) { yUpper = y };
 
 if(floorsPlaced == 1000) 
 { 
-    wall_p = instance_create(0, 0, obj_wallPlacer);
+    wall_p = instance_create(xLeft, yUpper, obj_wallPlacer);
     wall_p.stopX = xRight; 
     wall_p.stopY = yLower;
     instance_destroy();      
