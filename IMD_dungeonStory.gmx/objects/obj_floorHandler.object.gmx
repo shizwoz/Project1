@@ -54,7 +54,7 @@ xRight = 0;
 yLower = 0;
 
 //generates room faster 
-room_speed = 200;
+room_speed = 500;
 </string>
           </argument>
         </arguments>
