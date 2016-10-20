@@ -60,7 +60,7 @@ surface_set_target(global.light)/*With this function you set all further drawing
                                 way you can tell GameMaker:Studio to only draw
                                 specific things to the specified surface.*/
 
-draw_clear_alpha(c_black,0.99)//That line make the screen black with an alpha at 0.85
+draw_clear_alpha(c_black,0.98)//That line make the screen black with an alpha at 0.85
 draw_set_blend_mode(bm_subtract) //We're starting to substract here
 
 draw_set_alpha(1/precision)// The alpha value of 1 i simply divide by the number of circles.

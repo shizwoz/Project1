@@ -42,7 +42,7 @@ for(x = 32; x &lt; stopX; x+=32)
         randomize()
         
         target = instance_place(x, y, obj_floor);
-        chance = random_range(1, 195);
+        chance = random_range(1, 200);
 
         if(instance_exists(target))
         {
