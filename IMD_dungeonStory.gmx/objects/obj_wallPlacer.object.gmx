@@ -49,6 +49,7 @@ for(x = 32; x &lt; stopX; x+=32)
             if(!charPlaced)
             {
                 instance_create(x, y, obj_character);
+                instance_create(x, y, obj_lightingHandler);
                 charPlaced = true;
             }
             
