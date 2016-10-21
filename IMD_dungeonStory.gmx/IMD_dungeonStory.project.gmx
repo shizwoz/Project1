@@ -22,6 +22,9 @@
     <sprite>sprites\spr_wall0</sprite>
     <sprite>sprites\spr_character</sprite>
     <sprite>sprites\spr_start</sprite>
+    <sprite>sprites\spr_credits</sprite>
+    <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\spr_creditbutton</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\br_main</background>
@@ -43,16 +46,19 @@
     <object>objects\obj_scroll</object>
     <object>objects\obj_startButton</object>
     <object>objects\obj_options</object>
+    <object>objects\obj_credits</object>
+    <object>objects\obj_creditbutton</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
+    <room>rooms\rm_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
