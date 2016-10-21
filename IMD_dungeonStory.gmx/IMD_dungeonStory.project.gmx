@@ -15,11 +15,13 @@
     <sprite>sprites\spr_scroll</sprite>
     <sprite>sprites\spr_floor</sprite>
     <sprite>sprites\spr_wall4</sprite>
+    <sprite>sprites\spr_quit</sprite>
     <sprite>sprites\spr_wall2</sprite>
     <sprite>sprites\spr_wall1</sprite>
     <sprite>sprites\spr_wall3</sprite>
     <sprite>sprites\spr_wall0</sprite>
     <sprite>sprites\spr_character</sprite>
+    <sprite>sprites\spr_start</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\br_main</background>
@@ -32,14 +34,17 @@
   <objects name="objects">
     <object>objects\obj_floor</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_quitButton</object>
     <object>objects\obj_floorHandler</object>
     <object>objects\obj_lightingHandler</object>
     <object>objects\obj_wallPlacer</object>
     <object>objects\obj_character</object>
     <object>objects\obj_musicHandler</object>
     <object>objects\obj_scroll</object>
+    <object>objects\obj_startButton</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
   </rooms>
   <help>
