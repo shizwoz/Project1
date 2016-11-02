@@ -58,6 +58,8 @@
     <object>objects\obj_rightArrow</object>
     <object>objects\obj_leftArrow</object>
     <object>objects\obj_textHandler</object>
+    <object>objects\obj_menu_buttons</object>
+    <object>objects\obj_ctrl_light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -70,7 +72,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>

@@ -55,6 +55,7 @@
     <instance objName="obj_quitButton" x="928" y="448" name="inst_8B57A50C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_options" x="32" y="32" name="inst_AC647EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_creditbutton" x="864" y="320" name="inst_01C8DBAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu_buttons" x="512" y="64" name="inst_A0078E81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
