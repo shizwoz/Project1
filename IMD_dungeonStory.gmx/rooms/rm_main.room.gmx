@@ -53,6 +53,9 @@
   <instances>
     <instance objName="obj_floorHandler" x="0" y="0" name="inst_471DF643" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_musicHandler" x="32" y="32" name="inst_CEB4A3AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_leftArrow" x="1248" y="224" name="inst_3BE60080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rightArrow" x="2080" y="224" name="inst_223A6AC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_textHandler" x="32" y="0" name="inst_32807C8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
