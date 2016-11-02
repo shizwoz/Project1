@@ -29,6 +29,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\br_main</background>
+    <background>background\br_menu</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -64,7 +65,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
