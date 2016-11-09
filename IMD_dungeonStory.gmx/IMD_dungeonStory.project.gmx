@@ -29,6 +29,7 @@
     <sprite>sprites\spr_credits</sprite>
     <sprite>sprites\spr_creditbutton</sprite>
     <sprite>sprites\spr_stairs</sprite>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\br_main</background>
@@ -60,8 +61,9 @@
     <object>objects\obj_leftArrow</object>
     <object>objects\obj_textHandler</object>
     <object>objects\obj_menu_buttons</object>
-    <object>objects\obj_ctrl_light</object>
     <object>objects\obj_staircase</object>
+    <object>objects\obj_dungeonLight</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
@@ -74,7 +76,7 @@
     <rtf>help.rtf</rtf>
   </help>
   <TutorialState>
-    <IsTutorial>0</IsTutorial>
+    <IsTutorial>-1</IsTutorial>
     <TutorialName>C:\Users\zacks\AppData\Local\GameMaker-Studio\tutorials\My_First_Game\</TutorialName>
     <TutorialPage>15</TutorialPage>
   </TutorialState>
