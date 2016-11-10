@@ -57,56 +57,155 @@ draw_surface(global.textSpace, 1248, 288);
 
 
 
-s1 = " Once upon a time at the footof a great
-mountain, there was a town where the people
-known as Happyfolk lived, their very existence
-a mystery to the rest of the world, obscured as 
-it was by great clouds. Here they played out
-their peaceful lives, innocent of the litany of
-excess and violence that was growing in the world 
-below.To live in harmony with the spirit of the
-mountain called Monkey was enough.";
+s1 = " 
+Rar Salin
+70th Light of the Bug Season in the 40th Line of Oza
 
-s2 = " Then one day Strangefolk arrived in the 
-town. They came in camouflage, hidden behind dark 
-glasses, but no one noticed them: they only saw 
-shadows. You see, without the Truth of the Eyes, 
-the Happyfolk were blind.";
+Words of the Goddess
+Cleansings II 17:4-5 
+When presented with opportunity and welcoming it is 
+wise to turn away from those that would corrupt your 
+mind. But if one of and within your mind reaches out 
+to you, accept it, and be at peace knowing I would 
+never lie.
 
-s3 = " In time, Strangefolk found their way into 
-the higher reaches of the mountain,and it was there
- that they found the caves of unimaginable Sincerity
-and Beauty. By chance, they stumbled upon the Place 
-Where All Good Souls Come to Rest. The Strangefolk, 
-they coveted the jewels in these caves above all 
-things, and soon they began to mine the mountain, 
-its rich seam fueling the chaos of their own world.
-Meanwhile, down in the town, the Happyfolk slept 
-restlessly, their dreams invaded by shadowy figures 
-digging away at their souls.";
+Praise Oza! 
 
-s4 = " Every day, people would wake and stare at the
-mountain. Why was it bringing darkness into their 
-lives? And as the Strangefolk mined deeper and deeper 
-into the mountain, holes began to appear, bringing with 
-them a cold and bitter wind that chilled the very soul 
-of the monkey. For the first time, the Happyfolk felt 
-fearful for they knew that soon the Monkey would stir 
-from its deep sleep.";
+That is all I can really say. For today I have 
+finally been accepted into the Order. I am now of 
+the Holy Priesthood. Priest Salin they will say! 
+It is strange feeling  to be sure. I have this pressure
+in my chest and my tears will not stop. Such a blessing! 
+I never thought that I would get here. Everything I had 
+to do was very much worth it. And the way they all 
+smiled at me as I walked through the streets and oh 
+how the sun felt. Was it always that bright? Surely not! 
+That is the Goddess’ blessing I feel on my skin and in 
+my heart. 
 
-s5 = " And then came a sound. Distant first, it grew 
-into castrophany so immense it could be heard far away 
-in space.
+And laying on my lap is the proof that it is all not 
+an illusion! The Seastone necklace and the priest robes. 
+The stone so beautiful and cool to the touch with its 
+natural blues and reds. And the robes made from the soft 
+wool of the rare green sheepfish. Tomorrow I will put 
+them on for the first time and truly be a  Priest. I 
+wonder what it will be like inside the sanctuary. They 
+say that inside is a mural depicting the Goddess in all 
+Her glory. I cannot wait. In fact I do not think I will 
+be able to sleep! My hands  are shaking and my legs want 
+to run. So I will go out into the night and jump around 
+as a child and then pray myself to sleep when I return. 
 
-There were no screams. 
+Hopefully I will not wake the others.";
 
-There was no time.
+s2 = " 
+Arena Dirzer
+12th Light of the Fog Season in the 64th Line of Oza
 
-The mountain called Monkey had spoken.
+Words of the Goddess
+Waterwords 1:1
+In the beginning She had come from our dreams and like,
+as if in response, Her servants came from the shifting 
+dreamlike waters.
 
-There was only fire.
+Brother surprised me again this day! He joined with us once 
+more for the Honoring Ceremonies. I had heard that lately 
+he had been talking to some of the Priests but he never 
+struck me as one of faith. But I am so happy nevertheless! 
+His hiding nature and keeping to himself always and really 
+only appearing to give us his hunt for dinner was becoming 
+heartbreaking for us. But now he is smiling more and 
+laughing. Oza be praised! It is actually like I have a 
+brother now. 
 
-And then, nothing.";
+I cannot hold my excitement for the future days and seeing 
+what he will become and what he will bring to the family. 
+Perhaps he will become a Priest! Oh the honor he will bring!
+Goddess Oza let the days be quick so that my vision will 
+come to pass. ";
+
+s3 = " 
+Yoru Ferne
+7th Light of the Bug Season in the 125th Line of Oza
+
+Words of the Goddess
+Missions of the Order 20:16-18
+After we were done with the heretics we moved on to 
+the next. Our hearts were weighed down by tears of 
+bloodshed and the realization that there was so many 
+faithless. We hope that Oza in our hearts grants them 
+mercy in Her divine dreams. 
+
+Last night I had the same dream and I am certain I 
+will have it again tonight. Always the same. Me standing
+on water in the middle of the sea with no land in sight 
+all alone. And I heard the same woman’s voice but it was 
+much closer this last time. Saying the same thing. “Come 
+down into the water and let me hold you. Let me give you 
+my love.” Then the tendrils of black reached up from the 
+water and tried to grab me again but I woke up before they 
+could. 
+
+Most would say that these are visions of blessings I am 
+sure but they are simply seeds of control. Because they 
+were marching outside my room again. I am pretty sure it 
+is because of those damned Priests that I am having these 
+dreams. Chanting about their precious Oza while they march 
+around the city and giving everyone these blessed visions. 
+It will drive me mad. If they do it again I will demand for 
+them to stop their incessant marching tomorrow.";
+
+s4 = " 
+Jhime Urelio
+1st Light of the Frost Season in the 20th Line of Oza
+
+Words of the Goddess
+The Inspired 3:94-95
+We wanted to pass on our inspiration from the Goddess 
+because of what She has done for us and so we give 
+ourselves to Her entirely. It is only right that we 
+honor Her through this.
+
+Such a strange people. They speak the same language and 
+yet it is like they are from a different world. Everything 
+is different here but it is not bad at all. They are kind 
+to Jhime. They give me food and place to sleep during the 
+cold times. Very kind indeed. Especially those spirit 
+fathers. Or Priests they say. Interesting spirit the spirit
+fathers love here. Oza. Not like any spirit I have heard of
+in my travels. And even the adorning the spirit fathers 
+cloak are very spirit loving here. I feel the love fires 
+everywhere! 
+
+Jhime will learn more about this spirit Oza. Maybe it will 
+fill me with love fires also! So exciting this new place. ";
+
+s5 = " 
+Crex Agrar
+30th Light of the Fire Season in the 45th Line of Oza
+
+Words of the Goddess
+The Shaping 5:10-11
+She reached through our hearts into the dying earth and 
+poured into it Her love. And the ground burst with life
+and sustenance.
+
+Thank Oza! The rains have returned and my crops are 
+being given life again! I hear the sky opening up 
+and sharing its life blood. I should not have waited 
+so long to call upon the Priests to come bless the 
+land. I should have figured that something was wrong
+when there hadn’t been rain for so long. To think 
+that the reason was that I had incurred the Great 
+Goddess’ wrath. I feel so ashamed. I must fix my 
+mistake and the Priests say it is easy to do all I
+have to do is devote myself to Oza more. And so now
+everyday forth I vow to go to the honoring ceremony
+and march with my people! Praise Oza the Giver of 
+Life! Already I can feel Her reaching into my life 
+and giving me Her blessings! I will share this 
+feeling with my wife and children and they will 
+be blessed as well!";
 
 surface_set_target(global.textSpace);
 draw_set_colour(c_black);
@@ -114,31 +213,31 @@ draw_set_colour(c_black);
 if(global.page == 1)
 {
     draw_clear_alpha(c_white, 0);
-    draw_text(0, 224, s1);
+    draw_text(0, 0, s1);
     //global.page += 1;
 }
 if (global.page == 2) 
 {
     draw_clear_alpha(c_white, 0);
-    draw_text(0, 128, s2);
+    draw_text(0, 0, s2);
     //global.page += 1;
 }
 if (global.page == 3) 
 {
     draw_clear_alpha(c_white, 0);
-    draw_text(0, 256, s3);
+    draw_text(0, 0, s3);
     //global.page += 1;
 }
 if (global.page == 4) 
 {
     draw_clear_alpha(c_white, 0);
-    draw_text(0, 208, s4);
+    draw_text(0, 0, s4);
     //global.page += 1;
 }
 if (global.page == 5) 
 {
     draw_clear_alpha(c_white, 0);
-    draw_text(0, 272, s5);
+    draw_text(0, 0, s5);
     //global.page += 1;
 }
 
